@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Phiane Dominique</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Portfolio de Phiane Dominique">
+    <link rel="stylesheet" type="text/css" href="./sass/style.css">
+    <link rel="stylesheet" type="text/css" href="./sass/normalize.css">
+    <link rel="stylesheet" media="all and (max-width: 991px)" href="/sass/responsive.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href=".\node_modules\sal.js\dist\sal.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/26b2a5bc8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="burger"><i class="fa-solid fa-xl fa-bars"></i></div>
+                <div class="nav_links">
+                    <ul>
+                        <li><a href="#about">Accueil</a></li>
+                        <li><a href="#project">Projets</a></li>
+                        <li><a href="mailto:phiane.d@gmail.com">Contact</a></li>
+                        <li><a href="/Cv_Phiane_Dominique_12_2022.pdf">Télécharger mon cv</a></li>
+                        <li><a href="https://www.linkedin.com/in/dominique-phiane-378737243/" target="_blank">Linkedin</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="banner">
+
+                <h1 class="linear_text">Developpeur Web Fullstack</h1>
+                <div class="icon_skills" >
+                    <span><i class="fa-brands icon fa-2xl fa-html5"></i></span>
+                    <span><i class="fa-brands icon_2 fa-2xl fa-css3-alt"></i></span>
+                    <span><i class="fa-brands icon_3 fa-2xl fa-php"></i></span>
+                    <span><i class="fa-brands icon_4 fa-2xl fa-js"></i></span>
+                    <span><i class="fa-brands icon_5 fa-2xl fa-node"></i></span>
+                    <span><i class="fa-brands icon_6 fa-2xl fa-react"></i></span>
+                    <span><i class="fa-brands icon_7 fa-2xl fa-github"></i></span>
+                </div>
+                
+            </div>
+            <div class="service_container">
+                <div class="service_card"  data-sal="slide-left" style="--sal-duration: 3s;" >Gérer un projet web de A à Z</div>
+                <div class="service_card"  data-sal="slide-right" style="--sal-duration: 3s;" >Construire un site web responsive et dynamique</div>
+                <div class="service_card"  data-sal="slide-left" style="--sal-duration: 3s;" >Créer des API et des bases de données</div>
+                <div class="service_card"  data-sal="slide-right" style="--sal-duration: 3s;" >Optimiser les performances et maintenir les sites</div>
+            </div>
+
+            <img class="img_background" src="/img/background.png" alt="ordinateur avec des lignes de code">
+
+            <div class="skills_container" data-sal="slide-up"  style="--sal-duration: 2s">
+                <div class="skills_card" >
+                    <div class="skills_card_icon"><i class="fa-solid fa-2xl skills_icon fa-arrow-pointer"></i></div>
+                    <h2>Front-End</h2>
+                    <p>Sensible à la création de site web ergonomique.<br>Veille aux respects des normes W3C et d'accessibilité.</p>
+                    <p class="skills_card_asset">HTML / CSS / JavaScript / React Js</p>
+                </div>
+
+                <div class="skills_card"  data-sal="slide-up"  style="--sal-duration: 2s;--sal-delay:0.3s;">
+                    <div class="skills_card_icon"><i class="fa-solid fa-2xl skills_icon fa-server"></i></div>
+                    <h2>Back-End</h2>
+                    <p>Utilisation des bases de données SQL & NoSQL.<br>Suivi des recommandations de l'OWASP et du RGPD.</p>
+                    <p class="skills_card_asset">PHP / MySQL / NodeJs / MongoDB</p>
+                </div>
+
+                <div class="skills_card"  data-sal="slide-up"  style="--sal-duration: 2s;--sal-delay:0.6s;">
+                    <div class="skills_card_icon"><i class="fa-brands fa-2xl  skills_icon fa-react"></i></div>
+                    <h2>Outils & Logiciels</h2>
+                    <ul>
+                        <li>Vs Code</li>
+                        <li>Git/Github</li>
+                        <li>Figma</li>
+                        <li>Lighthouse</li>
+                        <li>Wave</li>
+                        <li>NVDA</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+
+            <h3>Mes projets</h3>
+            <div id="project" class="gallery">
+
+                <div class="card card_reverse"  data-sal="slide-up"  style="--sal-duration: 2s" >
+                    <div class="card_content">
+                        <span class="title">Blog en PHP</span>
+                        <p>
+                            <br>Création d'un blog avec une base de donnée MySQL.
+                            <br>Intégration d'un système d'authentification.
+                            <br>Programmation en POO avec un design pattern MVC.
+                        </p>
+                        <h4>Outils: MySQL</h4>
+                        <span class="link_github"><a href="https://github.com/dphiane/OhmyFood"><i
+                                    class="fa-brands fa-2xl fa-github"></i></a></span>
+                    </div>
+                    <div class="img_card translateLeft">
+                        <a href="https://github.com/dphiane/php_blog"><img src="./img/blog.png" alt="projet blog"></a>
+                    </div>
+
+                </div>
+                <div class="card"  data-sal="slide-up"  style="--sal-duration: 2s;" >
+                    <div class="card_content">
+                        <span class="title">Kasa</span>
+                        <p>
+                            <br>Web application pour la location de logement.
+                            <br>Développement avec des composants smarts.
+                            <br>Configuration de la navigation avec React Router.
+                        </p>
+
+                        <h4>Outils: React JS / React Router</h4>
+                        <span class="link_website"><a href="https://dphiane.github.io/kasa/" target="_blank"><i class="fa-solid fa-2xl fa-globe"></i></a></span>
+                        <span class="link_github"><a href="https://github.com/dphiane/kasa"><i class="fa-brands fa-2xl fa-github"></i></a></span>
+                                    
+                    </div>
+                    <div class="img_card translateRight">
+                        <a href="https://dphiane.github.io/kasa/" target="_blank"><img src="./img/kasa.png"
+                                alt="projet kasa"></a>
+                    </div>
+                </div>
+
+                <div class="card  card_reverse"  data-sal="slide-up"  style="--sal-duration: 2s;" >
+                    <div class="card_content">
+
+                        <span class="title">Hot Takes</span>
+                        <p>
+                            <br>Création d'une API REST avec une base de donnée NoSQL avec MongoDB.
+                            <br>Mise en oeuvre des opérations CRUD.
+                            <br>Sécurisé l’API selon les recommandations: OWASP et RGPD.
+                        </p>
+                        <h4>Outils: NodeJs, Express, Moogose</h4>
+                        <span class="link_github"><a href="https://github.com/dphiane/piiquante"><i
+                                    class="fa-brands fa-2xl fa-github"></i></a></span>
+                    </div>
+                    <div class="img_card translateLeft">
+                        <a href="https://github.com/dphiane/piiquante"><img src="./img/hot_takes.png"
+                                alt="projet hot takes"></a>
+                    </div>
+                </div>
+
+                <div class="card"  data-sal="slide-up" style="--sal-duration: 2s;" >
+                    <div class="card_content">
+                        <span class="title">Kanap</span>
+                        <p>
+                            <br>Construire un site e-commerce en JavaScript.
+                            <br>Intégration dynamique des éléments de l’API REST.
+                            <br>Contrôle des formulaires avec des Regex.
+                        </p>
+                        <h4>Outils: JavaScript pur</h4>
+                        <span class="link_github"> <a href="https://github.com/dphiane/kanap"><i
+                                    class="fa-brands fa-2xl fa-github"></i></a></span>
+                    </div>
+                    <div class="img_card translateRight">
+                        <a href="https://github.com/dphiane/kanap"><img src="./img/kanap.png" alt="projet kanap"></a>
+                    </div>
+                </div>
+
+                <div class="card  card_reverse"  data-sal="slide-up" style="--sal-duration: 2s;" >
+                    <div class="card_content">
+                        <span class="title">OhMyFood</span>
+                        <p>
+                            <br>Dynamiser une page web avec des animations CSS.
+                            <br>Intégration des maquettes en responsives.
+                            <br>Assurer la cohérence graphique du site.
+                        </p>
+                        <h4>Outils: Sass</h4>
+                        <span class="link_website"><a href="https://dphiane.github.io/P3/" target="_blank"><i class="fa-solid fa-2xl fa-globe"></i></a></span>
+
+                        <span class="link_github"><a href="https://github.com/dphiane/OhmyFood"><i class="fa-brands fa-2xl fa-github"></i></a></span>
+                    </div>
+                    <div class="img_card translateLeft">
+                        <a href="https://dphiane.github.io/P3/"> <img src="./img/ohmyfood.png"
+                                alt="projet oh my food"></a>
+                    </div>
+                </div>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <p> ©2022 Phiane Dominique</p>
+    </footer>
+        <script src="./node_modules/sal.js/dist/sal.js"></script>
+        <script>sal();</script>
+</body>
+
+</html>

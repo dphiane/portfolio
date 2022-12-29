@@ -1,0 +1,100 @@
+.burger {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+nav {
+  display: block;
+  min-height: 45px;
+}
+
+.nav_links {
+  display: none;
+}
+.nav_links ul {
+  flex-direction: column;
+  padding: 0;
+}
+.nav_links ul li {
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.nav_links.active {
+  display: flex;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+.banner h1 {
+  margin-bottom: 20px;
+}
+
+.service_container {
+  flex-wrap: wrap;
+}
+.service_container .service_card {
+  margin: 1%;
+}
+
+.skills_container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills_card {
+  width: 350px;
+}
+
+.card {
+  justify-content: center;
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column-reverse;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(134, 133, 239, 0.17);
+}
+
+.card_reverse .card_content {
+  margin-left: 10px;
+}
+
+.img_card {
+  margin-left: auto;
+  width: 100%;
+}
+
+.translateLeft a:hover img {
+  transform: none;
+}
+
+.translateRight a:hover img {
+  transform: none;
+}
+
+.card_content {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+.card_content .link_github {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card_content .link_website {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}/*# sourceMappingURL=responsive.css.map */
