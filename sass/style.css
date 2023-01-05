@@ -320,7 +320,7 @@ header {
 }
 .card_content .title {
   position: absolute;
-  top: 10px;
+  top: 15px;
   font-weight: 700;
 }
 
